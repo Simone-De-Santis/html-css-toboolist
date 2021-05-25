@@ -3,22 +3,26 @@
     margin: 0;
     padding: 0;
 }
+.inline{
+    display: inline-block;
+}
 .global-container{
     background-color: gray;
     height: 1000px;
 }
 .header-container{
+    height: 70px;
     background-color: white;
-    line-height:50px;
-
-
+    vertical-align: middle;
 }
-.inline{
-    display: inline-block;
+.logo{
+    vertical-align: middle;
 }
 .header-title{
+    line-height: 100%;
     display: inline-block;
-    vertical-align: center;
+    vertical-align: middle;
+    font-size: 50px;
    
 }
 .main-container{
@@ -26,26 +30,37 @@
     width: 500px;
     background-color: lightblue;
     margin: 30px auto;
-
 }
 .nav-main{
     height: 30px;
     background-color: lightcoral;
+    border-radius: 5px;
+}
+.body-main{
+    padding: 30px;
+    line-height: 2em;
+}
+.title-list{
+    font-weight: 800;
+    font-size: 25px;
 }
 
 #buttonmain{
     margin-left: 20px;
 }
 .main-button{
-    margin:5px 0 ;
+    margin: 5px 5px;
     border: 1px solid black;
-    border-radius: 5px
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 3px
 }
 .list-battom{
     background-color: yellow;
     border-radius: 5px;
     padding: 1px;
-    margin: 50spx;
+    margin-left: 10px;
+    font-size: 13px;
 }
 li{
     list-style-position: inside;
