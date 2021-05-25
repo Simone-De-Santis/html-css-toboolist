@@ -2,12 +2,39 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .inline{
     display: inline-block;
 }
+.blue{
+    background-color: rgba(27, 142, 181, 0.967);
+}
+.violet{
+    background-color: violet;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orangered;
+}
+.purple{
+    background-color: purple;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.whitetext{
+    color: white;
+}
+.greytext{
+    color: lightgrey;
+}
+
+
 .global-container{
-    background-color: gray;
+    background-color: #f9f4f4;
     height: 1000px;
 }
 .header-container{
@@ -23,42 +50,51 @@
     display: inline-block;
     vertical-align: middle;
     font-size: 50px;
-   
 }
 .main-container{
     height: 500px;
     width: 500px;
-    background-color: lightblue;
     margin: 30px auto;
 }
 .nav-main{
-    height: 30px;
-    background-color: lightcoral;
+    height: 40px;
+    background-color: white;
     border-radius: 5px;
+    margin-bottom: 3px;
 }
-.body-main{
+.body-main {
     padding: 30px;
     line-height: 2em;
+    border-radius: 5px;
+    background-color: white;    
 }
 .title-list{
     font-weight: 800;
     font-size: 25px;
 }
-
-#buttonmain{
+/* #buttonmain{
     margin-left: 20px;
-}
+} */
 .main-button{
-    margin: 5px 5px;
+    margin: 5px 12px;
     border: 1px solid black;
     border-radius: 5px;
-    font-size: 11px;
-    padding: 3px
+    font-size: 13px;
+    padding: 4px;
 }
-.list-battom{
-    background-color: yellow;
-    border-radius: 5px;
+.check-list{
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
     padding: 1px;
+}
+.cross{
+    color: red;
+}
+.list-button{
+    color: white;
+    border-radius: 12px;
+    padding: 6px;
     margin-left: 10px;
     font-size: 13px;
 }
