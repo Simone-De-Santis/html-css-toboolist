@@ -1,3 +1,40 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+.global-container{
+    background-color: gray;
+    height: 1000px;
+}
+.header-container{
+    background-color: white;
+
+}
+.inline{
+    display: inline-block;
+}
+.header-title{
+    display: inline-block;
+   
+}
+.main-container{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    margin: 30px auto;
+
+}
+.nav-main{
+    height: 30px;
+    background-color: aqua;
+}
+
+#buttonmain{
+    margin-left: 20px;
+}
+.main-button{
+    margin:5px 0 ;
+    
+    border: 1px solid black;
+    border-radius: 5px
 }
